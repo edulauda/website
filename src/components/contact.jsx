@@ -7,6 +7,7 @@ const initialState = {
   email: "",
   message: "",
 };
+
 export const Contact = (props) => {
   const [{ name, email, message }, setState] = useState(initialState);
 
@@ -22,9 +23,10 @@ export const Contact = (props) => {
     console.log(name, email, message);
     
     {/* replace below with your own Service ID, Template ID and Public Key from your EmailJS account */ }
-    
-    emailjs
-      .sendForm("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", e.target, "YOUR_PUBLIC_KEY")
+    emailjs.send("service_5d2yltg", "template_qngfk4c", { 
+      "from_name" : name,
+      "email_id" : email,
+      "message" : message }, "NfhMu-imUTcKX07TU")
       .then(
         (result) => {
           console.log(result.text);
@@ -42,10 +44,9 @@ export const Contact = (props) => {
           <div className="col-md-8">
             <div className="row">
               <div className="section-title">
-                <h2>Get In Touch</h2>
+                <h2>Kontaktiraj nas</h2>
                 <p>
-                  Please fill out the form below to send us an email and we will
-                  get back to you as soon as possible.
+                  Ispunite formu dole i javićemo se u što kraćem roku. Takođe nam se možete javiti preko društvenih mreža linkovanih dole.
                 </p>
               </div>
               <form name="sentMessage" validate onSubmit={handleSubmit}>
@@ -57,7 +58,7 @@ export const Contact = (props) => {
                         id="name"
                         name="name"
                         className="form-control"
-                        placeholder="Name"
+                        placeholder="Ime"
                         required
                         onChange={handleChange}
                       />
@@ -71,7 +72,7 @@ export const Contact = (props) => {
                         id="email"
                         name="email"
                         className="form-control"
-                        placeholder="Email"
+                        placeholder="E-mail"
                         required
                         onChange={handleChange}
                       />
@@ -85,7 +86,7 @@ export const Contact = (props) => {
                     id="message"
                     className="form-control"
                     rows="4"
-                    placeholder="Message"
+                    placeholder="Poruka"
                     required
                     onChange={handleChange}
                   ></textarea>
@@ -93,13 +94,13 @@ export const Contact = (props) => {
                 </div>
                 <div id="success"></div>
                 <button type="submit" className="btn btn-custom btn-lg">
-                  Send Message
+                  Pošalji poruku
                 </button>
               </form>
             </div>
           </div>
           <div className="col-md-3 col-md-offset-1 contact-info">
-            <div className="contact-item">
+            {/* <div className="contact-item">
               <h3>Contact Info</h3>
               <p>
                 <span>
@@ -115,11 +116,11 @@ export const Contact = (props) => {
                 </span>{" "}
                 {props.data ? props.data.phone : "loading"}
               </p>
-            </div>
+            </div> */}
             <div className="contact-item">
               <p>
                 <span>
-                  <i className="fa fa-envelope-o"></i> Email
+                  <i className="fa fa-envelope-o"></i> E-mail
                 </span>{" "}
                 {props.data ? props.data.email : "loading"}
               </p>
@@ -135,8 +136,8 @@ export const Contact = (props) => {
                     </a>
                   </li>
                   <li>
-                    <a href={props.data ? props.data.twitter : "/"}>
-                      <i className="fa fa-twitter"></i>
+                    <a href={props.data ? props.data.instagram : "/"}>
+                      <i className="fa fa-instagram"></i>
                     </a>
                   </li>
                   <li>
@@ -144,20 +145,22 @@ export const Contact = (props) => {
                       <i className="fa fa-youtube"></i>
                     </a>
                   </li>
+                  <li>
+                    <a href={props.data ? props.data.youtube : "/"}>
+                      <i className="fab fa-discord"></i>
+                    </a>
+                  </li>
                 </ul>
               </div>
             </div>
           </div>
-        </div>
-      </div>
-      <div id="footer">
-        <div className="container text-center">
-          <p>
-            &copy; 2023 Issaaf Kattan React Land Page Template. Design by{" "}
-            <a href="http://www.templatewire.com" rel="nofollow">
-              TemplateWire
-            </a>
-          </p>
+          <div className="col-md-12">
+            <div className="row">
+              <p className="credits">
+                Icons made by{" "} <a href="https://www.flaticon.com/authors/good-ware" color="black">Good ware</a>
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </div>

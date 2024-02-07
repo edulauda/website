@@ -3,13 +3,12 @@ import React from "react";
 
 export const Gallery = (props) => {
   return (
-    <div id="portfolio" className="text-center">
+    <div id="portfolio" className="text-center" style={{ backgroundColor: "#f2f2f2" }}>
       <div className="container">
         <div className="section-title">
-          <h2>Gallery</h2>
+          <h2>Galerija</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
-            dapibus leonec.
+            Pred vama su svi završni projekti naših polaznika, uživajte!
           </p>
         </div>
         <div className="row">
@@ -18,7 +17,7 @@ export const Gallery = (props) => {
               ? props.data.map((d, i) => (
                   <div
                     key={`${d.title}-${i}`}
-                    className="col-sm-6 col-md-4 col-lg-4"
+                    className="col-sm-6 col-md-4 col-lg-2 col-xl-2"
                   >
                     <Image
                       title={d.title}

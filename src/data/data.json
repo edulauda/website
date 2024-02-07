@@ -1,68 +1,168 @@
 {
   "Header": {
-    "title": "We are a Landing Page",
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
+    "title": "Liga Aktivnog Učenja kroz Digitalne Alate",
+    "paragraph": "Liga Aktivnog Učenja kroz Digitalne Alate"
   },
   "About": {
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "paragraph": "LAUDA je nastala 2019. godina kao volonterski projekat, iz ljubavi prema razvoju video igara i podučavanju. Učešće u radionici je potpuno besplatno. Namenjena je učenicima završnih razreda srednje škole i prethodno poznavanje programiranja nije neophodno. Polaznici sa predznanjem će imati priliku da rade na naprednijim projektima. Radionica se odvija online na našem Discord serveru i traje oko dva meseca. Za to vreme prelazimo:",
     "Why": [
-      "Lorem ipsum dolor",
-      "Tempor incididunt",
-      "Lorem ipsum dolor",
-      "Incididunt ut labore"
+      "Unity instalacija i osnovni prozori",
+      "Osnove C# jezika",
+      "Vektorski račun",
+      "Zvučni efekti i muzika"
     ],
     "Why2": [
-      "Aliquip ex ea commodo",
-      "Lorem ipsum dolor",
-      "Exercitation ullamco",
-      "Lorem ipsum dolor"
+      "Osnove fizike",
+      "Iscrtavanje u Unity endžinu",
+      "Animiranje i kretanje karaktera",
+      "Osnove UI implementacije"
     ]
   },
   "Gallery": [
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/01-large.jpg",
-      "smallImage": "img/portfolio/01-small.jpg"
+      "title": "Marko - Modern Cars Racing",
+      "largeImage": "img/portfolio/0.png",
+      "smallImage": "img/portfolio/0.png"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/02-large.jpg",
-      "smallImage": "img/portfolio/02-small.jpg"
+      "title": "Stefan - Dragon Rush",
+      "largeImage": "img/portfolio/1.png",
+      "smallImage": "img/portfolio/1.png"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/03-large.jpg",
-      "smallImage": "img/portfolio/03-small.jpg"
+      "title": "Gordan - On Wheels",
+      "largeImage": "img/portfolio/2.png",
+      "smallImage": "img/portfolio/2.png"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/04-large.jpg",
-      "smallImage": "img/portfolio/04-small.jpg"
+      "title": "Nenad - The Chicken Runner",
+      "largeImage": "img/portfolio/3.png",
+      "smallImage": "img/portfolio/3.png"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/05-large.jpg",
-      "smallImage": "img/portfolio/05-small.jpg"
+      "title": "Sonja - Rakun",
+      "largeImage": "img/portfolio/4.png",
+      "smallImage": "img/portfolio/4.png"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/06-large.jpg",
-      "smallImage": "img/portfolio/06-small.jpg"
+      "title": "Bojan - Archero",
+      "largeImage": "img/portfolio/5.png",
+      "smallImage": "img/portfolio/5.png"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/07-large.jpg",
-      "smallImage": "img/portfolio/07-small.jpg"
+      "title": "Nikola - Risky Transport",
+      "largeImage": "img/portfolio/6.png",
+      "smallImage": "img/portfolio/6.png"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/08-large.jpg",
-      "smallImage": "img/portfolio/08-small.jpg"
+      "title": "Vesna - City Helicopter Car Chase",
+      "largeImage": "img/portfolio/7.png",
+      "smallImage": "img/portfolio/7.png"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/09-large.jpg",
-      "smallImage": "img/portfolio/09-small.jpg"
+      "title": "Vojin, Matea, David - Defend The Village",
+      "largeImage": "img/portfolio/8.png",
+      "smallImage": "img/portfolio/8.png"
+    },
+    {
+      "title": "Lazar - Dear Aliens",
+      "largeImage": "img/portfolio/9.png",
+      "smallImage": "img/portfolio/9.png"
+    },
+    {
+      "title": "Nikoleta - On Time",
+      "largeImage": "img/portfolio/10.png",
+      "smallImage": "img/portfolio/10.png"
+    },
+    {
+      "title": "Oliver - Escape The Cube",
+      "largeImage": "img/portfolio/11.png",
+      "smallImage": "img/portfolio/11.png"
+    },
+    {
+      "title": "Andrea i Anđela - Poslednja nada",
+      "largeImage": "img/portfolio/12.png",
+      "smallImage": "img/portfolio/12.png"
+    },
+    {
+      "title": "Mateja - Dodge Realm",
+      "largeImage": "img/portfolio/13.png",
+      "smallImage": "img/portfolio/13.png"
+    },
+    {
+      "title": "Uroš - Toilet Paper Shortage",
+      "largeImage": "img/portfolio/14.png",
+      "smallImage": "img/portfolio/14.png"
+    },
+    {
+      "title": "Filip - Survival Game",
+      "largeImage": "img/portfolio/15.png",
+      "smallImage": "img/portfolio/15.png"
+    },
+    {
+      "title": "Uroš - Zombie Shooter",
+      "largeImage": "img/portfolio/16.png",
+      "smallImage": "img/portfolio/16.png"
+    },
+    {
+      "title": "Jovan - Rejv Zombija",
+      "largeImage": "img/portfolio/17.png",
+      "smallImage": "img/portfolio/17.png"
+    },
+    {
+      "title": "Igor - Limitless Runner",
+      "largeImage": "img/portfolio/18.png",
+      "smallImage": "img/portfolio/18.png"
+    },
+    {
+      "title": "Teodora - Jammo Runner",
+      "largeImage": "img/portfolio/19.png",
+      "smallImage": "img/portfolio/19.png"
+    },
+    {
+      "title": "Marko - Arcade Racer",
+      "largeImage": "img/portfolio/20.png",
+      "smallImage": "img/portfolio/20.png"
+    },
+    {
+      "title": "Aleksa - Remorse",
+      "largeImage": "img/portfolio/21.png",
+      "smallImage": "img/portfolio/21.png"
+    },
+    {
+      "title": "Tamara - Beg sa ostrva",
+      "largeImage": "img/portfolio/22.png",
+      "smallImage": "img/portfolio/22.png"
+    },
+    {
+      "title": "Vlada - Big Vegas",
+      "largeImage": "img/portfolio/23.png",
+      "smallImage": "img/portfolio/23.png"
+    },
+    {
+      "title": "Viktor - Bean Field",
+      "largeImage": "img/portfolio/24.png",
+      "smallImage": "img/portfolio/24.png"
+    },
+    {
+      "title": "Viktor i Luka - Flawless Rider",
+      "largeImage": "img/portfolio/25.png",
+      "smallImage": "img/portfolio/25.png"
+    },
+    {
+      "title": "Vladimir i Dominik - Born To Die",
+      "largeImage": "img/portfolio/26.png",
+      "smallImage": "img/portfolio/26.png"
+    },
+    {
+      "title": "Miloš - Svarog",
+      "largeImage": "img/portfolio/27.png",
+      "smallImage": "img/portfolio/27.png"
+    },
+    {
+      "title": "Vukota, David i Leon - Ghost Chase",
+      "largeImage": "img/portfolio/28.png",
+      "smallImage": "img/portfolio/28.png"
     }
   ],
   "Services": [
@@ -132,53 +232,61 @@
   "Team": [
     {
       "img": "img/team/01.jpg",
-      "name": "John Doe",
-      "job": "Director"
+      "name": "Aleksandar Josić",
+      "link": "https://www.linkedin.com/in/aleksandar-josic/",
+      "job": "Unity mentor"
     },
     {
       "img": "img/team/02.jpg",
-      "name": "Mike Doe",
-      "job": "Senior Designer"
+      "name": "Radmila Popović",
+      "link": "https://www.linkedin.com/in/radmilapopovic/",
+      "job": "Unity mentor"
     },
     {
       "img": "img/team/03.jpg",
-      "name": "Jane Doe",
-      "job": "Senior Designer"
+      "name": "Andrea Boroš",
+      "link": "https://www.linkedin.com/in/aleksandar-josic/",
+      "job": "Senior UI-UX Designer"
     },
     {
-      "img": "img/team/04.jpg",
-      "name": "Karen Doe",
-      "job": "Project Manager"
+      "img": "img/team/05.jpg",
+      "name": "Vuk Radošević",
+      "link": "https://www.linkedin.com/in/vuk-radosevic-b10874162/",
+      "job": "Senior Unity developer"
+    },
+    {
+      "img": "img/team/06.jpg",
+      "name": "Dejan Pekter",
+      "link": "https://www.linkedin.com/in/dejanpekter/",
+      "job": "Principal Backend developer"
+    },
+    {
+      "img": "img/team/07.jpg",
+      "name": "Srđan Krsman",
+      "link": "https://www.linkedin.com/in/srdjan-krsman/",
+      "job": "Senior Unity Developer"
     }
+
   ],
   "Contact": {
     "address": "4321 California St, San Francisco, CA 12345 ",
     "phone": "+1 123 456 1234",
-    "email": "info@company.com",
-    "facebook": "fb.com",
-    "twitter": "twitter.com",
-    "youtube": "youtube.com"
+    "email": "edu.lauda@gmail.com",
+    "facebook": "https://www.facebook.com/lauda.edu",
+    "instagram": "https://www.instagram.com/edu.lauda/",
+    "youtube": "https://www.youtube.com/channel/UCjM5I-YUa2pBZZdMandM0gQ",
+    "tiktok": "https://www.tiktok.com/@edu_lauda"
   },
   "Features": [
     {
-      "icon": "fa fa-comments-o",
+      "icon": "fa fa-file-code-o",
       "title": "Lorem ipsum",
       "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
     },
     {
-      "icon": "fa fa-bullhorn",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-    },
-    {
-      "icon": "fa fa-group",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-    },
-    {
-      "icon": "fa fa-magic",
+      "icon": "fa fa-gamepad",
       "title": "Lorem ipsum",
       "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
     }
-  ]
+    ]
 }
