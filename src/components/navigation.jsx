@@ -18,7 +18,9 @@ export const Navigation = (props) => {
             <span className="icon-bar"></span>{" "}
           </button>
           <a className="navbar-brand page-scroll" href="#page-top">
-            <img src="img/Lauda_samo_logo_small.png" alt="some random text" style={{ maxWidth: "100%", maxHeight: "100%" }} />
+            <div style={{ overflow: 'hidden', width: '100%', height: '100%' }}>
+              <img src="img/Lauda_samo_logo_small.png" alt="some random text" style={{ position: 'absolute', top: '50%', left: '20%', transform: 'translate(-50%, -50%)', maxWidth: 'auto', maxHeight: '65%',zIndex:'1' }} />
+            </div>
           </a>{" "}
         </div>
 
