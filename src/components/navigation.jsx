@@ -18,8 +18,8 @@ export const Navigation = (props) => {
             <span className="icon-bar"></span>{" "}
           </button>
           <a className="navbar-brand page-scroll" href="#page-top">
-            <div style={{ overflow: 'hidden', width: '100%', height: '100%' }}>
-              <img src="img/Lauda_samo_logo_small.png" alt="some random text" style={{ position: 'absolute', top: '50%', left: '20%', transform: 'translate(-50%, -50%)', maxWidth: 'auto', maxHeight: '65%',zIndex:'1' }} />
+            <div style={{ overflow: 'hidden'}}>
+              <img src="img/Lauda_samo_logo_small.png" alt="some random text" style={{ position: 'absolute', top: '50%', left: '20%', transform: 'translate(-50%, -50%)', maxWidth: 'auto', maxHeight: '65%' }} />
             </div>
           </a>{" "}
         </div>
@@ -29,31 +29,16 @@ export const Navigation = (props) => {
           id="bs-example-navbar-collapse-1"
         >
           <ul className="nav navbar-nav navbar-right">
-            {/* <li>
-              <a href="#features" className="page-scroll">
-                Features
-              </a>
-            </li> */}
             <li>
               <a href="#about" className="page-scroll">
                 O radionici
               </a>
             </li>
-            {/* <li>
-              <a href="#services" className="page-scroll">
-                Services
-              </a>
-            </li> */}
             <li>
               <a href="#portfolio" className="page-scroll">
                 Galerija
               </a>
             </li>
-            {/* <li>
-              <a href="#testimonials" className="page-scroll">
-                Testimonials
-              </a>
-            </li> */}
             <li>
               <a href="#team" className="page-scroll">
                 Tim
