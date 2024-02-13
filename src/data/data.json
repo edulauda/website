@@ -4,7 +4,7 @@
     "paragraph": "Liga Aktivnog Učenja kroz Digitalne Alate"
   },
   "About": {
-    "paragraph": "LAUDA je nastala 2019. godina kao volonterski projekat, iz ljubavi prema razvoju video igara i podučavanju. Učešće u radionici je potpuno besplatno. Namenjena je učenicima završnih razreda srednje škole i prethodno poznavanje programiranja nije neophodno. Polaznici sa predznanjem će imati priliku da rade na naprednijim projektima. Radionica se odvija online na našem Discord serveru i traje oko dva meseca. Za to vreme prelazimo:",
+    "paragraph": "LAUDA je nastala 2019. godina kao volonterski projekat, i učešće u radionici je potpuno besplatno. Namenjena je učenicima završnih razreda srednje škole. Prethodno poznavanje programiranja nije neophodno, dok polaznici sa predznanjem imaju priliku da rade na naprednijim projektima. Neke od stvari koje prelazimo:",
     "Why": [
       "Unity instalacija i osnovni prozori",
       "Osnove C# jezika",
@@ -233,7 +233,7 @@
     {
       "img": "img/team/01.jpg",
       "name": "Aleksandar Josić",
-      "link": "https://www.linkedin.com/in/aleksandar-josic/",
+      "link": "https://www.linkedin.com/in/aleksandarjosic/",
       "job": "Unity mentor"
     },
     {
@@ -244,8 +244,8 @@
     },
     {
       "img": "img/team/03.jpg",
-      "name": "Andrea Boroš",
-      "link": "https://www.linkedin.com/in/aleksandar-josic/",
+      "name": "Andrea Kovačević",
+      "link": "https://www.linkedin.com/in/andrea-kovacevic-6aa973b4/",
       "job": "Senior UI-UX Designer"
     },
     {

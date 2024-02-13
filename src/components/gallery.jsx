@@ -17,7 +17,8 @@ export const Gallery = (props) => {
               ? props.data.map((d, i) => (
                   <div
                     key={`${d.title}-${i}`}
-                    className="col-sm-6 col-md-4 col-lg-2 col-xl-2"
+                    className="col-sm-4 col-md-6 col-lg-4 col-xl-3"
+                    
                   >
                     <Image
                       title={d.title}
