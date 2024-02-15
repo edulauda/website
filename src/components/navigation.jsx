@@ -18,7 +18,7 @@ export const Navigation = (props) => {
             <span className="icon-bar"></span>{" "}
           </button>
           <a className="navbar-brand page-scroll" href="#page-top" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-            <img src="img/Lauda_samo_logo_small.png" alt="some random text" />
+            <img src="../img/Lauda_samo_logo_small.png" alt="some random text" />
           </a>{" "}
         </div>
 
