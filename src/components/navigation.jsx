@@ -17,10 +17,8 @@ export const Navigation = (props) => {
             <span className="icon-bar"></span>{" "}
             <span className="icon-bar"></span>{" "}
           </button>
-          <a className="navbar-brand page-scroll" href="#page-top">
-            <div style={{ overflow: 'hidden'}}>
-              <img src="img/Lauda_samo_logo_small.png" alt="some random text" style={{ position: 'absolute', top: '50%', left: '20%', transform: 'translate(-50%, -50%)', maxWidth: 'auto', maxHeight: '65%' }} />
-            </div>
+          <a className="navbar-brand page-scroll" href="#page-top" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+            <img src="img/Lauda_samo_logo_small.png" alt="some random text" />
           </a>{" "}
         </div>
 
