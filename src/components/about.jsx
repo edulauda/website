@@ -4,46 +4,26 @@ export const About = (props) => {
   return (
     <div id="about">
       <div className="container">
-        <div className="row">
-          <div className="col-xs-12 col-md-6">
-            <div>
-                <iframe
-                    width="100%"
-                    height="315"
-                    src="https://www.youtube.com/embed/fQ6mNUpjEo0"
-                    title="YouTube video player"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowFullScreen
-                ></iframe>
-            </div>
-          </div>
-          <div className="col-xs-12 col-md-6">
-            <div className="about-text">
-              <h2>O radionici</h2>
-              <p style={{ textAlign: "justify" }}>{props.data ? props.data.paragraph : "loading..."}</p>
-              <p>{props.data ? props.data.paragraph2 : "loading..."}</p>
-              <div className="list-style">
-                <div className="col-lg-6 col-sm-6 col-xs-12">
-                  <ul>
-                    {props.data
-                      ? props.data.Why.map((d, i) => (
-                          <li key={`${d}-${i}`}>{d}</li>
-                        ))
-                      : "loading"}
-                  </ul>
-                </div>
-                <div className="col-lg-6 col-sm-6 col-xs-12">
-                  <ul>
-                    {props.data
-                      ? props.data.Why2.map((d, i) => (
-                          <li key={`${d}-${i}`}> {d}</li>
-                        ))
-                      : "loading"}
-                  </ul>
-                </div>
+        <div className="section-title" style={{ textAlign: "center" }}>
+          <h2>O radionici</h2>
+        </div>
+        <p style={{ textAlign: "justify" }}>{props.data ? props.data.paragraph : "loading..."}</p>
+        <p>{props.data ? props.data.paragraph2 : "loading..."}</p>
+        <div className="row" >
+          {props.data
+            ? props.data.Items.map((d, i) => (
+              <div key={`${d.title}-${i}`} className="col-xs-6 col-md-3" style={{textAlign: 'center'}}>
+                {/* <img src={d.icon}></img> */}
+                <i className={d.icon} style={{textAlign: 'center'}}></i>
+                <h3 style={{textAlign: 'center'}}>
+                  {d.title}
+                </h3>
+                <p style={{textAlign: 'center'}}>
+                  {d.text}
+                </p>
               </div>
-            </div>
-          </div>
+            ))
+            : "Loading..."}
         </div>
       </div>
     </div>

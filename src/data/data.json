@@ -1,21 +1,29 @@
 {
-  "Header": {
-    "title": "Liga Aktivnog Učenja kroz Digitalne Alate",
-    "paragraph": "Liga Aktivnog Učenja kroz Digitalne Alate"
-  },
   "About": {
-    "paragraph": "LAUDA je nastala 2019. godina kao volonterski projekat, i učešće u radionici je potpuno besplatno. Namenjena je učenicima završnih razreda srednje škole. Prethodno poznavanje programiranja nije neophodno, dok polaznici sa predznanjem imaju priliku da rade na naprednijim projektima. Neke od stvari koje prelazimo:",
-    "Why": [
-      "Unity instalacija i osnovni prozori",
-      "Osnove C# jezika",
-      "Vektorski račun",
-      "Zvučni efekti i muzika"
-    ],
-    "Why2": [
-      "Osnove fizike",
-      "Iscrtavanje u Unity endžinu",
-      "Animiranje i kretanje karaktera",
-      "Osnove UI implementacije"
+    "paragraph": "LAUDA je nastala 2019. godina kao volonterski projekat, i učešće u radionici je potpuno besplatno. Namenjena je učenicima završnih razreda srednje škole. Prethodno poznavanje programiranja nije neophodno, dok polaznici sa predznanjem imaju priliku da rade na naprednijim projektima.",
+    "second_paragraph": "Učesnici u toku radionice smišljaju ideju za svoj projekat i uz naše mentorstvo ga implementiraju",    
+    "Items": [
+      {
+        "title": "Unity",
+        "icon": "fa fa-gamepad",
+        "img": "img/icons/unity.png",
+        "text": "Od instalacije do kompletnog projekta u 8 nedelja"
+      },
+      {
+        "title": "Osnove C#",
+        "icon": "fa fa-terminal",
+        "text": "Od koncepta promenljive i funkcije do pisanja Unity skripti"
+      },
+      {
+        "title": "Grupni rad",
+        "icon": "fa fa-users",
+        "text": "Mogućnost rada na projektu individualno ili u grupama"
+      },
+      {
+        "title": "Nagrade",
+        "icon": "fa fa-trophy",
+        "text": "Finalna prezentacija i nagrađivanje najuspešnijih pojekata"
+      }      
     ]
   },
   "Gallery": [
@@ -165,70 +173,6 @@
       "smallImage": "img/portfolio/28.png"
     }
   ],
-  "Services": [
-    {
-      "icon": "fa fa-wordpress",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-    },
-    {
-      "icon": "fa fa-cart-arrow-down",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-    },
-    {
-      "icon": "fa fa-cloud-download",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-    },
-    {
-      "icon": "fa fa-language",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-    },
-    {
-      "icon": "fa fa-plane",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-    },
-    {
-      "icon": "fa fa-pie-chart",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-    }
-  ],
-  "Testimonials": [
-    {
-      "img": "img/testimonials/01.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
-    },
-    {
-      "img": "img/testimonials/02.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
-    },
-    {
-      "img": "img/testimonials/03.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
-    },
-    {
-      "img": "img/testimonials/04.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
-    },
-    {
-      "img": "img/testimonials/05.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
-    },
-    {
-      "img": "img/testimonials/06.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
-    }
-  ],
   "Team": [
     {
       "img": "img/team/01.jpg",
@@ -269,24 +213,10 @@
 
   ],
   "Contact": {
-    "address": "4321 California St, San Francisco, CA 12345 ",
-    "phone": "+1 123 456 1234",
     "email": "edu.lauda@gmail.com",
     "facebook": "https://www.facebook.com/lauda.edu",
     "instagram": "https://www.instagram.com/edu.lauda/",
     "youtube": "https://www.youtube.com/channel/UCjM5I-YUa2pBZZdMandM0gQ",
     "tiktok": "https://www.tiktok.com/@edu_lauda"
-  },
-  "Features": [
-    {
-      "icon": "fa fa-file-code-o",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-    },
-    {
-      "icon": "fa fa-gamepad",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-    }
-    ]
+  }
 }
